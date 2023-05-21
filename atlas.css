@@ -1,0 +1,65 @@
+body {
+    background: white;
+}
+
+.navbar-nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 0 8px;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+.navbar-nav a:hover {
+    color: rgb(130, 130, 202);
+}
+
+#id_home:hover{
+    cursor: pointer;
+    color: rgb(130, 130, 202);
+}
+
+.country{
+    align-items: center;
+    text-align: center;
+    background: rgba(255, 255, 255,0.4);
+}
+
+#id_parent{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.preBox {
+    cursor: pointer;
+    min-height: 380px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.preBox {
+    cursor: pointer;
+    min-height: 380px;
+    font-family: 'Open Sans', sans-serif;
+    transition: transform 0.3s ease;
+}
+
+.preBox:hover {
+    transform: scale(1.2);
+}
+
+.imgPreBox{
+    height: 250px;
+}
+
+.box{
+    min-height: 500px;
+    width: 800px;
+    background: rgba(255, 255, 255,0.4);
+}
